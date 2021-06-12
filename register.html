@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Register</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="rg.css">
+</head>
+<body>
+	<div>
+	<ul>
+		<li><a href="index.html">Home</a></li>
+		<li><a href="cars.html">Cars</a></li>
+		<li><a href="contact.html">Contact</a></li>
+		<li><a href="about.html">About</a></li>
+		<li style="float: right;"><a href="register.html">Register</a></li>
+
+	</ul>
+	</div>
+
+		<div class="img-bg">
+  
+<form  id= "contactForm" class="form-inline" action="thank.html" onsubmit="return validate()" >
+
+    <fieldset style=" padding: 12px; color:white; font-weight: bold; font-size: 20px; display: flex; align-items: stretch; flex-flow: column nowrap;">
+<legend>SIGN UP</legend>
+
+  <label>First Name: </label> 
+  <input name="name" type="text" id="name" placeholder="First name" required> 
+
+  <label>Last Name: </label> 
+  <input name="lname" type="text" id="lname" placeholder="Last name" required> 
+
+  <label>Phone Number:</label>
+  <input name="tel" type="Phone"  id="Phone" placeholder=" 20-123-45-678" pattern="[0-9]{2}-[0-9]{3}-[0-9]{2}-[0-9]{3}" required> 
+  
+  <label for="mail">Mail:</label> 
+  <input name="email" type="email"  id="email" placeholder=" name@gov"  required> 
+  
+  <label>Gender:</label> 
+   <select required> 
+     <option> Male</option>
+      <option> Female</option>
+    </select>
+
+    <label for="pwd">Password:</label>
+    <input type="password" id="pwd" placeholder="Enter password" name="pwd" required> 
+    <span id = "message" style="color:red;"> </span> <br><br>
+
+    <!--  pattern="(?=.*\d)(?=.*[A-Z])(?=.*[A-Z]).{8}" title="Must contain at least one digit and one uppercase and lowercase letter, and 8 chars"  required>  --> 
+
+    <div class="buB"> </br></br>
+     <button type="submit" value="SIGN UP" class="bsign"  > 
+      SIGN UP </button> </div>
+      </form>
+
+  </fieldset>
+</div>
+
+	   <!--  <div class="frm">
+	    <div class="container"> -->
+<!-- style="padding: 12px; color:white; font-weight: bold; font-size: 20px;" -->
+
+ <!-- <input type="list" id="male" name="gender" value="male">
+      <label for="male">Male</label></br>
+      <input type="radio" id="female" name="gender" value="female"> 
+      <label for="female">Female</label> -->
+<!-- </div>
+</div> -->
+
+</div>
+</body>
+<script src="ps.js"></script>
+
+</html>

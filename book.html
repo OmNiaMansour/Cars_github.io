@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Book Your Car </title>
+	<meta name="viewport" content="width=device-width, initial-scale= 1">
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<div>
+	<ul>
+		<li><a href="index.html">Home</a></li>
+		<li><a href="cars.html">Cars</a></li>
+		<li><a href="contact.html">Contact</a></li>
+		<li><a href="about.html">About</a></li>
+		<li style="float: right;"><a href="register.html">Register</a></li>
+
+	</ul>
+	</div>
+
+<!-- style="height: 40px; width: 250px; padding: 3px; -->
+
+	<div class="img-bg">
+		 <form action="thank.html" class="form-inline">
+		<fieldset style=" padding: 12px; color:white; font-weight: bold; font-size: 20px; display: flex; align-items: stretch; flex-flow: column nowrap;">
+	   
+			<input name="name" type="name" id="name" placeholder="Full name"required>  </br> 
+			<input name="tel" type="Phone"  id="Phone" placeholder="20-123-45-678" pattern="[0-9]{2}-[0-9]{3}-[0-9]{2}-[0-9]{3}"  required></br>
+			<select required>
+				<!-- <option value="Car">Select a Car Type</option> -->
+				<option> BMW</option>
+				<option> Lamborghini</option>
+				<option> Ferrari</option>
+				<option> Hyundai</option>
+				<option> Acura</option>
+			</select>  </br>
+
+			<textarea name="add" type="text"  id="add"  class="txtar" placeholder="Enter Your Address" required></textarea> </br> 
+		<div class="buB">
+		 <button type="submit" value="BOOK" class="bu">
+			BOOK </button> 
+		</div>
+</fieldset>
+	    </form>
+    </div>
+
+</body>
+</html>
